@@ -45,8 +45,7 @@ public void SetAge(int Age) {
 
 @Override
 public String toString(){
-    Owner Name = new Owner();
-    return "Мяу, "+" меня зовут "+GetName()+", мне"+" "+GetAge()+" мой владелец - "+ Name.GetName();
+    return "Мяу, "+" меня зовут "+GetName()+", мне"+" "+GetAge()+" мой владелец - "+ GetOwnerName();
      
 }
 
